@@ -46,5 +46,16 @@ const winner = () => {
 }
  }
 
+ const btn = document.getElementById('reset');
+ const txt = document.querySelector('#span');
+ btn.onclick = () => {
+    console.log('clicked');
+    boxes.forEach( (box) => {
+      box.innerText = '';
+      box.disabled = false;
+      span.innerText = '';
+    })
+ }
+
 
 
