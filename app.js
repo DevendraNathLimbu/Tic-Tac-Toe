@@ -41,10 +41,16 @@ const winner = () => {
          if(value1 == value2 && value1 == value3){
            span.innerHTML = value1 + ' Wins';
            span.style.color = 'green';
-         }
+            boxes.forEach( (box) => {
+              box.disabled = true;
+            });
+        let winAudio = new Audio('win.wav');
+              winAudio.play(); 
+          }
     }
 }
  }
+   // Reset Button Functionality 
 
  const btn = document.getElementById('reset');
  const txt = document.querySelector('#span');
