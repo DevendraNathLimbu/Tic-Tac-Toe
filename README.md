@@ -28,4 +28,4 @@ A classic **Tic-Tac-Toe** game built using **HTML**, **CSS**, and **JavaScript**
 
 1. Clone the repository:
    ```bash
-https://github.com/DevendraNathLimbu/Tic-Tac-Toe
+   git clone https://github.com/DevendraNathLimbu/Tic-Tac-Toe
